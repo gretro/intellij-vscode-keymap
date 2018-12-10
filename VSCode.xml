@@ -15,8 +15,15 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
@@ -43,6 +50,9 @@
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
   <action id="CopyElement" />
+  <action id="DSM.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.ShowDiff" />
@@ -66,6 +76,9 @@
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -78,11 +91,18 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+    <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -104,11 +124,21 @@
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl j" />
   </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
@@ -138,6 +168,7 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoBookmark0" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f12" />
@@ -157,6 +188,9 @@
   </action>
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="ImplementMethods" />
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
@@ -164,6 +198,9 @@
   <action id="InsertLiveTemplate" />
   <action id="IpnbRunCellInplaceAction" />
   <action id="JumpToLastWindow" />
+  <action id="Maven.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="Move" />
@@ -229,6 +266,9 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="UML.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
