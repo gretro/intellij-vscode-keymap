@@ -1,12 +1,12 @@
 <keymap version="1" name="VSCode" parent="$default">
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
-  <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
+  <action id="ChangesView.Rename" />
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -30,6 +30,10 @@
   <action id="Console.Jdbc.Execute" />
   <action id="Console.Jpa.Execute" />
   <action id="Console.Jpa.GenerateSql" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
@@ -40,6 +44,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Debugger.EditArrayFilter" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.UpdatedFiles" />
@@ -123,9 +128,7 @@
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="Git.Push" />
-  <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
+  <action id="Git.Reword.Commit" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
@@ -141,9 +144,13 @@
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="alt end" />
   </action>
+  <action id="GotoNextError" />
+  <action id="GotoNextIncompletePropertyAction" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="GuiDesigner.EditComponent" />
+  <action id="GuiDesigner.EditGroup" />
   <action id="ImplementMethods" />
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
@@ -158,7 +165,9 @@
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="RemoteHostView.Rename" />
-  <action id="RenameElement" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -172,9 +181,7 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
-  <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
+  <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -202,5 +209,7 @@
   <action id="UML.ApplyCurrentLayout" />
   <action id="Uml.ShowDiff" />
   <action id="ViewSource" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="hg4idea.push" />
 </keymap>
