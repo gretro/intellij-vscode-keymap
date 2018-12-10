@@ -1,6 +1,9 @@
 <keymap version="1" name="VSCode" parent="$default">
   <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -8,6 +11,7 @@
   </action>
   <action id="ChangesView.Rename" />
   <action id="CheckinProject" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -160,7 +164,17 @@
   <action id="InsertLiveTemplate" />
   <action id="IpnbRunCellInplaceAction" />
   <action id="JumpToLastWindow" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="Move" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="NextOccurence" />
   <action id="NextTab" />
   <action id="ParameterInfo" />
@@ -185,6 +199,7 @@
   <action id="SendEOF" />
   <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
+  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -217,6 +232,8 @@
   <action id="Uml.ShowDiff" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.MoveWatchUp" />
   <action id="XDebugger.SetValue" />
   <action id="hg4idea.push" />
 </keymap>
